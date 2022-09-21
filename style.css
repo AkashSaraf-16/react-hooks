@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parent {
+  width: 100vw;
+  height: 100vh;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.child {
+  width: 30vw;
+  height: 30vh;
+  color: black;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrong {
+  width: 30vw;
+  height: 30vh;
+  color: black;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
